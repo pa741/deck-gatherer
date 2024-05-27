@@ -1,14 +1,19 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "fflate": "^0.8.2",
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-awesome-button": "^7.0.5",
+    "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.10",
+    "react-loading": "^2.0.3",
+    "scryfall-api": "^3.2.5"
   },
   "devDependencies": {
     "@types/node": "20.10.8",
